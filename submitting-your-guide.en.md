@@ -38,10 +38,14 @@ Once submitted, our documentation team will review the guide for technical accur
 
 ### Licensing and attribution
 
-By submitting your guide, you agree to:
+All documentation contributed to and published by our project is licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)** license.
+
+By submitting your guide or making edits to existing content, you agree that your contributions will be published under this license and to:
 
 * Grant us permission to edit and redistribute the content.
 * Optionally include your name or handle for attribution (let us know your preference).
+
+You can read the full license here: [https://creativecommons.org/licenses/by-nc-sa/4.0/](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 ---
 
