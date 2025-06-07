@@ -6,6 +6,6 @@
 
 ---
 
-*Last Modified: June 7th, 2025*
+*Last Modified: 7 June 2025*
 
 *Credits: [Astra](https://github.com/astra1993)*

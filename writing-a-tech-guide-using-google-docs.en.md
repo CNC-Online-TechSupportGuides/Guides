@@ -31,6 +31,6 @@ When exporting to Markdown, Google Docs often embeds images as base64 data urls.
 
 ---
 
-*Last Modified: June 6th, 2025*
+*Last Modified: 6 June 2025*
 
 *Credits: [Astra](https://github.com/astra1993)*

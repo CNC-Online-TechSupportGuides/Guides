@@ -9,7 +9,7 @@ This guide explains the process for submitting your guide for consideration and 
 Before submitting, please ensure that:
 
 * You've proofread your guide and reviewed it for accuracy, clarity, and completeness.
-* You've written the guide in the `Markdown` format and followed our required directory structure. (There are guides available on how to accomplish this using [Google Docs](writing-a-tech-guide-using-google-docs.en.md) or [Ghostwriter](writing-a-tech-guide-using-ghostwriter.en.md)
+* You've written the guide in the `Markdown` format and followed our required directory structure. (There are guides available on how to accomplish this using [Google Docs](writing-a-tech-guide-using-google-docs.en.md) or [Ghostwriter](writing-a-tech-guide-using-ghostwriter.en.md))
 * You've added credits and a last modified date (or updated them if you've modified an existing guide).
 * It is desirable for new guides to follow the style of other guides for a uniform look across the documentation.
 
@@ -30,7 +30,7 @@ If you're familiar with Git and GitHub, you can use this method.
 
 1) Join our [community Discord](contact-us.en.md).
 2) Create a ZIP archive of your guide and all of its assets (images, diagrams, ...).
-3) Message one of the tech support staff, including a short summary describing the purpose of your guide, and attach the aforementioned archive.
+3) Message one of the senior tech support staff, include a short summary describing the purpose of your guide, and attach the aforementioned archive.
 
 ### Review process
 
@@ -49,6 +49,6 @@ You can read the full license here: [https://creativecommons.org/licenses/by-nc-
 
 ---
 
-*Last Modified: June 7th, 2025*
+*Last Modified: 7 June 2025*
 
 *Credits: [Astra](https://github.com/astra1993)*
