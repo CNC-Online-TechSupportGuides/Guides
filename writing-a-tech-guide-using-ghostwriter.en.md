@@ -31,3 +31,9 @@ Unlike Google Docs, Ghostwriter inserts images using relative paths, so it eases
 ### Markdown syntax
 
 Although Ghostwriter provides a WYSIWYG environment, formatting shortcuts, and a markdown cheatsheet, if you'd like to learn more about markdown's syntax , check [this website](https://www.markdownguide.org).
+
+---
+
+*Last Modified: June 7th, 2025*
+
+*Credits: [Astra](https://github.com/astra1993)*

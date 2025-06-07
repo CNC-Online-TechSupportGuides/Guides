@@ -42,3 +42,9 @@ By submitting your guide, you agree to:
 
 * Grant us permission to edit and redistribute the content.
 * Optionally include your name or handle for attribution (let us know your preference).
+
+---
+
+*Last Modified: June 7th, 2025*
+
+*Credits: [Astra](https://github.com/astra1993)*

@@ -28,3 +28,9 @@ After you've completed your guide, you can export the document in the Markdown f
 
 When exporting to Markdown, Google Docs often embeds images as base64 data urls. This is not desirable for our purposes, because of Github's environment, and the images will fail to show up in there. Therefore when creating your guide inside Google Docs, type memorable tags in place of the images (e.g. `<first image>` or `<1.jpg>`), and replace them later, by creating the directory structure explained above, and linking the images using relative paths in the Markdown syntax. For example:  
 `![sample description for first image](assets/for/test-guide.en/1.jpg)`
+
+---
+
+*Last Modified: June 6th, 2025*
+
+*Credits: [Astra](https://github.com/astra1993)*
