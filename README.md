@@ -2,6 +2,8 @@
 
 ![](assets/images/cnclogo.png)
 
+### Introduction
+
 Welcome to the technical support documentation project for C&C Online.
 
 We are a dedicated volunteer-driven team of developers, enthusiasts, and zealous C&C fans committed to bringing online multiplayer functionality back to classic Command & Conquer titles. Our software restores online play using a custom backend infrastructure, providing network connectivity and online play features for these games that no longer have online support since Gamespy went down. The tools, patches, and backend infrastructure we've developed allow players to once again enjoy the multiplayer experience and command their armies in full glory to their heart's content. Our solution is designed to be as seamless and native-feeling as possible, integrating directly with the original game clients while preserving compatibility with various releases, including Retail, Steam, and EA, whilst also supporting mods where feasible.
@@ -20,5 +22,26 @@ We will be continuously updating this documentation as our tools evolve and new 
 
 Thank you for helping us keep the beloved C&C legacy alive — and welcome back, commander.
 
+### Documentation License
 
+All documentation contributed to and published by our project is licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)** license.
 
+This means:
+
+* **Attribution** — You must give appropriate credit , provide a link to the license, and indicate if changes were made . You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+* **NonCommercial** — You may not use the material for commercial purposes .
+* **ShareAlike** — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original. 
+
+You can read the full license here: [https://creativecommons.org/licenses/by-nc-sa/4.0/](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+By submitting a guide or making edits to existing content, you agree that your contributions will be published under this license.
+
+### Table of Contents
+
+* [Contact us](contact-us.en.md)
+
+Drafting and submitting guides
+
+* [How to write a tech guide using Google Docs](writing-a-tech-guide-using-google-docs.en.md)
+* [How to write a tech guide using Ghostwriter](writing-a-tech-guide-using-ghostwriter.en.md)
+* [Submitting your guides](submitting-your-guide.en.md)
