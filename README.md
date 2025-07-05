@@ -45,3 +45,7 @@ Drafting and submitting guides
 * [How to write a tech guide using Google Docs](writing-a-tech-guide-using-google-docs.en.md)
 * [How to write a tech guide using Ghostwriter](writing-a-tech-guide-using-ghostwriter.en.md)
 * [Submitting your guides](submitting-your-guide.en.md)
+
+Troubleshooting
+
+* [Network connectivity issues](network-troubleshooting-guide.en.md)
