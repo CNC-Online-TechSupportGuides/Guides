@@ -12,17 +12,17 @@ Please read through all of the sections in order, and try all the troubleshootin
 
 The games supported by our service are:
 
-* Command & Conquer: Generals
-* Command & Conquer: Generals: Zero Hour 
-* Command & Conquer 3: Tiberium Wars
-* Command & Conquer 3: Kane's Wrath
-* Command & Conquer: Red Alert 3
+* Command & Conquer: Generals (CCG)
+* Command & Conquer: Generals: Zero Hour (ZH)
+* Command & Conquer 3: Tiberium Wars (TW)
+* Command & Conquer 3: Kane's Wrath (KW)
+* Command & Conquer: Red Alert 3 (RA3)
 
-These titles may henceforth be referred to by the acronyms `CCG`, `ZH`, `TW`, `KW`, and `RA3` respectively.
+The acronyms, denoted inside parentheses in front of each game's name, are usually used to refer to the games in our community and this text might also make use of them from time to time.
 
 The very first thing you need to make sure of is that our client, Tacitus, is correctly installed (you can do this by following the installation guide provided here). A very important note is that Generals and Zero Hour *DO NOT* use the Tacitus client for their online functionality. For them you have to use the utility called **Gentool**.
 
-It is noteworthy that most of the online connectivity guides out there are either dated (e.g. advising people to hook the game which is the process used by the old C&C Online Launcher that got replaced with Tacitus) or just plain wrong (e.g. advising people to forward ports that are not used by the game). So it is important to start with a clean slate, and follow the instructions provided here to maximize your chance of success in troubleshooting.
+Keep in mind that most of the online connectivity guides out there are either dated (e.g. advising people to hook the game which is the process used by the old C&C Online Launcher that got replaced with Tacitus) or just plain wrong (e.g. advising people to forward ports that are not used by the game). So it is important to start with a clean slate, and follow the instructions provided here to maximize your chance of success in troubleshooting.
 
 ### IPv4 Requirement, Carrier-Grade NAT (CG-NAT) and P2P Connectivity
 
@@ -32,7 +32,7 @@ Checking whether you have an IPv4 assigned to you is actually very easy. Just vi
 
 ![checking for an external IPv4 address](assets/for/network-troubleshooting-guide.en/check-ipv4.jpg)
 
-All of the games supported by us establish peer-to-peer (P2P) connections for their multiplayer, and the central server is only used to allow the players to find each other. The only protocol the games use for P2P is UDP, and they do UDP Hole Punching for NAT Traversal. This means that most players will not need any form of port forwarding or DMZ, as the games correctly negotiates their inbound ports. Also note that our games DO NOT negotiate their port forwardings through UPnP, so it being enabled or disabled has no effect on the connectivity (unless you use an 3rd-party UPnP client and use a static port which is taught in this guide later on).
+All of the games supported by us establish peer-to-peer (P2P) connections for their multiplayer, and the central server is only used to allow the players to find each other. The only protocol the games use for P2P is UDP, and they do UDP Hole Punching for NAT Traversal. This means that most players will not need any form of port forwarding or DMZ, as the games correctly negotiates their inbound ports. Also note that our games DO NOT negotiate their port forwardings through UPnP, so it being enabled or disabled has no effect on the connectivity (unless you use a 3rd-party UPnP client and use a static port which is taught in this guide later on).
 
 In some cases, players may experience difficulty establishing P2P connections due to the use of Carrier-Grade NAT (CG-NAT) on their internet connection (also called DS-Lite in some configurations). CG-NAT is commonly used by ISPs to conserve IPv4 addresses by assigning multiple customers a shared external IP address. While this approach helps manage limited IP resources, it introduces limitations that can interfere with direct inbound connections—an essential requirement for many P2P-based multiplayer systems.
 
@@ -42,7 +42,7 @@ You can check whether you are behind a CG-NAT by following this procedure:
 
 1) Log into your modem/router.
 2) Usually the very first page that comes up shows your connection information (otherwise look for a network status page). You can find the IPv4 assigned to you there.
-3) If the IP starts with `10`, `192`, `172`, or `100` (which differs from your external IP which you found earlier in the guide), then you are behind a CG-NAT.
+3) If the IP starts with `10`, `192`, `172`, or `100` (which differs from your external IP, which you found earlier in the guide), then you are behind a CG-NAT.
 
 ![checking for the IP assigned by ISP to the modem](assets/for/network-troubleshooting-guide.en/check-cg-nat.jpg)
 
@@ -77,7 +77,7 @@ NOTE: This error usually manifests itself in not being able to log in or logging
 
 ### Edge Case: Red Alert 3 Firewall Port Override
 
-There is a setting in Red Alert 3, which is known to cause problems for setting up multiplayer games (the error is usually a `Failed Connection 1-2`). This is caused by setting a static Port Number in the game's settings under the Network section. Unfortunately just removing the port does not resolve the issue, and its directive must be manually removed from the game's options file.
+There is a setting in Red Alert 3, which is known to cause problems for setting up multiplayer games (the error is usually a `Failed Connection 1-2`). This is caused by setting a static port number in the game's settings under the Network section. Unfortunately just removing the port does not resolve the issue, and its directive must be manually removed from the game's options file.
 
 1) Make sure that the game is closed.
 2) Inside the Start menu or your file explorer navigate to `%appdata%`. Then to the `Red Alert 3` folder and then to `Profiles`. The full path is `%appdata%\Red Alert 3\Profiles`, which when expanded looks something like this: `C:\Users\your_username\AppData\Roaming\Red Alert 3\Profiles\`
@@ -96,13 +96,13 @@ We strongly encourage players experiencing frequent connection failures or hosti
 
 It is also very important to remember, that if two people are failing to connect to each other, the issue might be with just one user and not the other. Always test your connectivity with people who are known to have correct working connection (you can ask the tech support staff for a test). This will allow the players to pinpoint directly which user has connectivity issues.
 
-It is worth mentioning, that these tools can also be used to test whether a VPN provider supports the connectivity features required by the games. So if you want to give a VPN provider, which isn't tested by us, a try, you can use these tools to test them.
+It is worth mentioning, that these tools can also be used to test whether a VPN provider supports the connectivity features required by the games. So if you want to try a VPN provider that we haven’t tested, you can use these tools to test them.
 
 There are currently two options:
 
 The first option is our classic `NatNegTest` tool, which can be downloaded from [here](assets/for/network-troubleshooting-guide.en/NatNegTest.rar) or [here](http://server.cnc-online.net/downloads/NATNegTest.rar). Extract it into a folder and double-click on the `.bat` file (Make sure the files are extracted, as you can't run the test utility directly from the compressed file). If the tool fails to run, please download and install this [runtime](https://www.microsoft.com/en-us/download/details.aspx?id=40784). Note that if you have previously enabled port forwarding or DMZ inside your modem/router, then disable them first before testing (you can test with them enabled as well later on, but be sure to test without them first).
 
-The second option is the `WarpPort` tool, which can be downloaded from [here](https://warpport.kaneswrath.com). This tool provides multiple tests, but the only tests you need to do are the `Hole Punch Test` and the `Peer-to-Peer Test`. It is noteworthy that the `Peer-to-Peer Test`, requires both players to have the tool installed, in order to run the test. There is an instructional video available on the provided link, that teaches you how to run these two tests.
+The second option is the `WarpPort` tool, which can be downloaded from [here](https://warpport.kaneswrath.com). This tool provides multiple tests, but the only tests you need to do are the `Hole Punch Test` and the `Peer-to-Peer Test`. It is noteworthy that the `Peer-to-Peer Test` requires both players to have the tool installed, in order to run the test. There is an instructional video available on the provided link, that teaches you how to run these two tests.
 
 ### Correct In-game IP Setting
 
@@ -112,7 +112,7 @@ If you have activated a VPN interface, you must select the VPN adapters local IP
 
 In this section, there is also an option called `Send Delay`. It was originally designed to help with some D-Link and Netgear modems/routers, but we have observed it helping with situations involving different connection issues as well.
 
-**NOTE:** There is a rare edge-case, where the presence of a virtual network adapter on the system, that is disconnected but not disabled prevents the game from doing NAT traversal correctly. In our tests, Port Forwarding solved this problem, but the better approach is to disable the adapter when it's not needed. Selecting the correct in-game IP address from the settings might also remedy this problem.
+**NOTE:** There is a rare edge-case, where the presence of a virtual network adapter on the system, that is disconnected but not disabled prevents the game from doing NAT traversal correctly. In our tests, Port Forwarding solved this problem, but a better approach is to disable the adapter when not in use. Selecting the correct in-game IP address from the settings might also resolve this problem.
 
 ### How to Fix the Connectivity Issues
 
