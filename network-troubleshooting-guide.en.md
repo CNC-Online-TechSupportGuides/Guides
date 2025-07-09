@@ -4,7 +4,7 @@ C&C Online can offer some of the most engaging and rewarding experiences—wheth
 
 This guide is designed to help players diagnose and resolve common network-related problems that may arise when trying to connect to multiplayer services across the Command & Conquer titles supported by the C&C Online service.
 
-These games were released a long time ago, therefore some problems tend to come up in modern networking environments. Problems can range from not being able to connect to the servers to failing to join lobbies or start a multiplayer game, and unfortunately there are multiple causes to each issue, making the troubleshooting process complicated.
+These games were released a long time ago; therefore, some problems tend to come up in modern networking environments. Problems can range from not being able to connect to the servers to failing to join lobbies or start a multiplayer game, and, unfortunately, each issue can have multiple causes, making the troubleshooting process complicated.
 
 Please read through all of the sections in order, and try all the troubleshooting methods before reaching out to the support team, as this will allow us to pinpoint edge cases and unknown issues and focus our effort more effectively.
 
